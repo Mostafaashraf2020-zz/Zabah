@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B771ADD7D2B9C3DCCEE3FA1F /* Pods_Zbeha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A3E49F90EB77A6FF4558A8 /* Pods_Zbeha.framework */; };
+		E0222CD223A425C300C53877 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0222CD123A425C300C53877 /* User.swift */; };
+		E0222CD423A425E000C53877 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0222CD323A425E000C53877 /* Category.swift */; };
+		E075010B2395E9BB00413999 /* CartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07501092395E9BB00413999 /* CartCollectionViewCell.swift */; };
+		E075010C2395E9BB00413999 /* CartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E075010A2395E9BB00413999 /* CartCollectionViewCell.xib */; };
+		E075010E2395E9D800413999 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E075010D2395E9D800413999 /* CartViewController.swift */; };
+		E07501102395F85200413999 /* CartMasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E075010F2395F85200413999 /* CartMasterModel.swift */; };
+		E07501122395F8E000413999 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07501112395F8E000413999 /* Order.swift */; };
+		E07501162396151F00413999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07501152396151F00413999 /* Main.storyboard */; };
+		E212AAFA238038D3005DC5B0 /* branchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E212AAF9238038D3005DC5B0 /* branchesViewController.swift */; };
+		E2177AE8238ECAE000252684 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2177AE5238ECAE000252684 /* Slider.swift */; };
+		E2177AE9238ECAE000252684 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2177AE6238ECAE000252684 /* Master.swift */; };
+		E2177AEA238ECAE000252684 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2177AE7238ECAE000252684 /* Home.swift */; };
+		E233166A23731776008286DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233166923731776008286DF /* MainViewController.swift */; };
+		E233166E237322CA008286DF /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233166D237322CA008286DF /* tabBarViewController.swift */; };
+		E245EFCB2398192300810484 /* TermofusesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245EFCA2398192300810484 /* TermofusesViewController.swift */; };
+		E245EFCD23981B2B00810484 /* TermModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245EFCC23981B2B00810484 /* TermModel.swift */; };
+		E273BCFA2376F4860097A7CA /* SliderCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273BCF92376F4860097A7CA /* SliderCellCollectionViewCell.swift */; };
+		E273BCFE23771E950097A7CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273BCFD23771E950097A7CA /* LoginViewController.swift */; };
+		E27B28B723897FE3000A2D93 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B28B623897FE3000A2D93 /* Api.swift */; };
+		E27B28B923899308000A2D93 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B28B823899308000A2D93 /* RegisterViewController.swift */; };
+		E284E681237C580000B5578D /* branchesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E284E680237C580000B5578D /* branchesCollectionViewCell.swift */; };
+		E29F254A2396BD97001552F3 /* finalOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F25492396BD97001552F3 /* finalOrderModel.swift */; };
+		E2A3285A236F08D600777938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A32859236F08D600777938 /* AppDelegate.swift */; };
+		E2A32861236F08D900777938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A32860236F08D900777938 /* Assets.xcassets */; };
+		E2A32864236F08D900777938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A32862236F08D900777938 /* LaunchScreen.storyboard */; };
+		E2F569722395446C0096D639 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F569712395446C0096D639 /* Product.swift */; };
+		E2F56974239559CB0096D639 /* categoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F56973239559CB0096D639 /* categoryCollectionViewCell.swift */; };
+		E2F569782395895D0096D639 /* AtToCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F569772395895D0096D639 /* AtToCartModel.swift */; };
+		E2FA1E98239FD22D00B51B58 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA1E97239FD22D00B51B58 /* ContactUsViewController.swift */; };
+		E2FA1E9A239FD40100B51B58 /* SendComplainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA1E99239FD40100B51B58 /* SendComplainModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28E7E9E710CD59978B8D45EE /* Pods-Zbeha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zbeha.release.xcconfig"; path = "Target Support Files/Pods-Zbeha/Pods-Zbeha.release.xcconfig"; sourceTree = "<group>"; };
+		38AE572863CB2EE3B811928B /* Pods-Zbeha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zbeha.debug.xcconfig"; path = "Target Support Files/Pods-Zbeha/Pods-Zbeha.debug.xcconfig"; sourceTree = "<group>"; };
+		5A11AEEB37F42F71AF133510 /*  .xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = " .xcconfig"; path = "Target Support Files/Pods-Zbeha/ .xcconfig"; sourceTree = "<group>"; };
+		E0222CD123A425C300C53877 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E0222CD323A425E000C53877 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E07501092395E9BB00413999 /* CartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollectionViewCell.swift; sourceTree = "<group>"; };
+		E075010A2395E9BB00413999 /* CartCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCollectionViewCell.xib; sourceTree = "<group>"; };
+		E075010D2395E9D800413999 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		E075010F2395F85200413999 /* CartMasterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMasterModel.swift; sourceTree = "<group>"; };
+		E07501112395F8E000413999 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E07501152396151F00413999 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E212AAF9238038D3005DC5B0 /* branchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = branchesViewController.swift; sourceTree = "<group>"; };
+		E2177AE5238ECAE000252684 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		E2177AE6238ECAE000252684 /* Master.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		E2177AE7238ECAE000252684 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E233166923731776008286DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E233166D237322CA008286DF /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		E245EFCA2398192300810484 /* TermofusesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermofusesViewController.swift; sourceTree = "<group>"; };
+		E245EFCC23981B2B00810484 /* TermModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermModel.swift; sourceTree = "<group>"; };
+		E273BCF92376F4860097A7CA /* SliderCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		E273BCFD23771E950097A7CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E27B28B623897FE3000A2D93 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		E27B28B823899308000A2D93 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E284E680237C580000B5578D /* branchesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = branchesCollectionViewCell.swift; sourceTree = "<group>"; };
+		E29F25492396BD97001552F3 /* finalOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalOrderModel.swift; sourceTree = "<group>"; };
+		E2A32856236F08D600777938 /* Zbeha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zbeha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A32859236F08D600777938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2A32860236F08D900777938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2A32863236F08D900777938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2A32865236F08D900777938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F569712395446C0096D639 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E2F56973239559CB0096D639 /* categoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2F569772395895D0096D639 /* AtToCartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtToCartModel.swift; sourceTree = "<group>"; };
+		E2FA1E97239FD22D00B51B58 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		E2FA1E99239FD40100B51B58 /* SendComplainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendComplainModel.swift; sourceTree = "<group>"; };
+		F1A3E49F90EB77A6FF4558A8 /* Pods_Zbeha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zbeha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2A32853236F08D600777938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B771ADD7D2B9C3DCCEE3FA1F /* Pods_Zbeha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C86CE1591FF24AB53865FCA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A11AEEB37F42F71AF133510 /*  .xcconfig */,
+				28E7E9E710CD59978B8D45EE /* Pods-Zbeha.release.xcconfig */,
+				38AE572863CB2EE3B811928B /* Pods-Zbeha.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAE4189305E098BCA504E4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1A3E49F90EB77A6FF4558A8 /* Pods_Zbeha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E233166F23732EC4008286DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E07501152396151F00413999 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E233167123732EEF008286DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2F569712395446C0096D639 /* Product.swift */,
+				E2177AE7238ECAE000252684 /* Home.swift */,
+				E2177AE6238ECAE000252684 /* Master.swift */,
+				E2177AE5238ECAE000252684 /* Slider.swift */,
+				E2F569772395895D0096D639 /* AtToCartModel.swift */,
+				E075010F2395F85200413999 /* CartMasterModel.swift */,
+				E07501112395F8E000413999 /* Order.swift */,
+				E29F25492396BD97001552F3 /* finalOrderModel.swift */,
+				E245EFCC23981B2B00810484 /* TermModel.swift */,
+				E2FA1E99239FD40100B51B58 /* SendComplainModel.swift */,
+				E0222CD123A425C300C53877 /* User.swift */,
+				E0222CD323A425E000C53877 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E233167223732EF8008286DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E27B28BA23899829000A2D93 /* authencation */,
+				E233166D237322CA008286DF /* tabBarViewController.swift */,
+				E233166923731776008286DF /* MainViewController.swift */,
+				E273BCF92376F4860097A7CA /* SliderCellCollectionViewCell.swift */,
+				E284E680237C580000B5578D /* branchesCollectionViewCell.swift */,
+				E212AAF9238038D3005DC5B0 /* branchesViewController.swift */,
+				E2F56973239559CB0096D639 /* categoryCollectionViewCell.swift */,
+				E07501092395E9BB00413999 /* CartCollectionViewCell.swift */,
+				E075010A2395E9BB00413999 /* CartCollectionViewCell.xib */,
+				E075010D2395E9D800413999 /* CartViewController.swift */,
+				E245EFCA2398192300810484 /* TermofusesViewController.swift */,
+				E2FA1E97239FD22D00B51B58 /* ContactUsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E27B28B323897F69000A2D93 /* supporties Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2A32860236F08D900777938 /* Assets.xcassets */,
+				E2A32862236F08D900777938 /* LaunchScreen.storyboard */,
+			);
+			path = "supporties Files";
+			sourceTree = "<group>";
+		};
+		E27B28B523897FB9000A2D93 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E27B28B623897FE3000A2D93 /* Api.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E27B28BA23899829000A2D93 /* authencation */ = {
+			isa = PBXGroup;
+			children = (
+				E273BCFD23771E950097A7CA /* LoginViewController.swift */,
+				E27B28B823899308000A2D93 /* RegisterViewController.swift */,
+			);
+			path = authencation;
+			sourceTree = "<group>";
+		};
+		E2A3284D236F08D600777938 = {
+			isa = PBXGroup;
+			children = (
+				E2A32858236F08D600777938 /* Zbeha */,
+				E2A32857236F08D600777938 /* Products */,
+				C86CE1591FF24AB53865FCA1 /* Pods */,
+				DAE4189305E098BCA504E4E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2A32857236F08D600777938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2A32856236F08D600777938 /* Zbeha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2A32858236F08D600777938 /* Zbeha */ = {
+			isa = PBXGroup;
+			children = (
+				E2A32865236F08D900777938 /* Info.plist */,
+				E2A32859236F08D600777938 /* AppDelegate.swift */,
+				E27B28B523897FB9000A2D93 /* API */,
+				E27B28B323897F69000A2D93 /* supporties Files */,
+				E233167123732EEF008286DF /* Model */,
+				E233166F23732EC4008286DF /* View */,
+				E233167223732EF8008286DF /* Controller */,
+			);
+			path = Zbeha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2A32855236F08D600777938 /* Zbeha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A32868236F08D900777938 /* Build configuration list for PBXNativeTarget "Zbeha" */;
+			buildPhases = (
+				4024A05BE93B3FE3898368DD /* [CP] Check Pods Manifest.lock */,
+				E2A32852236F08D600777938 /* Sources */,
+				E2A32853236F08D600777938 /* Frameworks */,
+				E2A32854236F08D600777938 /* Resources */,
+				2355EB1459ABF9F615AE8243 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zbeha;
+			productName = Zbeha;
+			productReference = E2A32856236F08D600777938 /* Zbeha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2A3284E236F08D600777938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = DP;
+				TargetAttributes = {
+					E2A32855236F08D600777938 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E2A32851236F08D600777938 /* Build configuration list for PBXProject "Zbeha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2A3284D236F08D600777938;
+			productRefGroup = E2A32857236F08D600777938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2A32855236F08D600777938 /* Zbeha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2A32854236F08D600777938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E075010C2395E9BB00413999 /* CartCollectionViewCell.xib in Resources */,
+				E2A32864236F08D900777938 /* LaunchScreen.storyboard in Resources */,
+				E2A32861236F08D900777938 /* Assets.xcassets in Resources */,
+				E07501162396151F00413999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2355EB1459ABF9F615AE8243 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zbeha/Pods-Zbeha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zbeha/Pods-Zbeha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zbeha/Pods-Zbeha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4024A05BE93B3FE3898368DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zbeha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2A32852236F08D600777938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FA1E9A239FD40100B51B58 /* SendComplainModel.swift in Sources */,
+				E2F56974239559CB0096D639 /* categoryCollectionViewCell.swift in Sources */,
+				E233166E237322CA008286DF /* tabBarViewController.swift in Sources */,
+				E0222CD223A425C300C53877 /* User.swift in Sources */,
+				E2FA1E98239FD22D00B51B58 /* ContactUsViewController.swift in Sources */,
+				E27B28B923899308000A2D93 /* RegisterViewController.swift in Sources */,
+				E245EFCD23981B2B00810484 /* TermModel.swift in Sources */,
+				E2177AEA238ECAE000252684 /* Home.swift in Sources */,
+				E233166A23731776008286DF /* MainViewController.swift in Sources */,
+				E0222CD423A425E000C53877 /* Category.swift in Sources */,
+				E245EFCB2398192300810484 /* TermofusesViewController.swift in Sources */,
+				E07501122395F8E000413999 /* Order.swift in Sources */,
+				E2A3285A236F08D600777938 /* AppDelegate.swift in Sources */,
+				E27B28B723897FE3000A2D93 /* Api.swift in Sources */,
+				E2F569782395895D0096D639 /* AtToCartModel.swift in Sources */,
+				E075010E2395E9D800413999 /* CartViewController.swift in Sources */,
+				E212AAFA238038D3005DC5B0 /* branchesViewController.swift in Sources */,
+				E2177AE8238ECAE000252684 /* Slider.swift in Sources */,
+				E2F569722395446C0096D639 /* Product.swift in Sources */,
+				E2177AE9238ECAE000252684 /* Master.swift in Sources */,
+				E07501102395F85200413999 /* CartMasterModel.swift in Sources */,
+				E273BCFE23771E950097A7CA /* LoginViewController.swift in Sources */,
+				E273BCFA2376F4860097A7CA /* SliderCellCollectionViewCell.swift in Sources */,
+				E075010B2395E9BB00413999 /* CartCollectionViewCell.swift in Sources */,
+				E284E681237C580000B5578D /* branchesCollectionViewCell.swift in Sources */,
+				E29F254A2396BD97001552F3 /* finalOrderModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2A32862236F08D900777938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A32863236F08D900777938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2A32866236F08D900777938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2A32867236F08D900777938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2A32869236F08D900777938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AE572863CB2EE3B811928B /* Pods-Zbeha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6KU26569L;
+				INFOPLIST_FILE = Zbeha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dp.Zbeha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2A3286A236F08D900777938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E7E9E710CD59978B8D45EE /* Pods-Zbeha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6KU26569L;
+				INFOPLIST_FILE = Zbeha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dp.Zbeha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2A32851236F08D600777938 /* Build configuration list for PBXProject "Zbeha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A32866236F08D900777938 /* Debug */,
+				E2A32867236F08D900777938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A32868236F08D900777938 /* Build configuration list for PBXNativeTarget "Zbeha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A32869236F08D900777938 /* Debug */,
+				E2A3286A236F08D900777938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2A3284E236F08D600777938 /* Project object */;
+}

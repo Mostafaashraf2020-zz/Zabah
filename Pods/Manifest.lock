@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BorderedView (0.1.0)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BorderedView
+  - SDWebImage
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BorderedView
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BorderedView: d5a4373310d6c7c0fa922eade7ca13672541dad8
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 2f1416645e2989e92e4ab73c2e553982df29edbd
+
+COCOAPODS: 1.8.4
